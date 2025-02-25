@@ -1,15 +1,20 @@
-# ddd_architecture
+# Random Dog Images 🐶📸 (DDD Architecture)
 
-A new Flutter project.
+A simple Flutter project that fetches random dog images from an [API](https://dog.ceo/api/breeds/image/random) while following the Domain-Driven Design (DDD) architecture.
 
-## Getting Started
+## Project Structure
+```
+📂 lib
+├── 📂 core                 # Common utilities, failure handling
+├── 📂 domain               # Business logic (Entities, UseCases, Repository Interface)
+├── 📂 data                 # Data layer (Models, API calls, Repository Implementation)
+├── 📂 presentation         # UI & State Management (Bloc, Widgets)
+├── main.dart              # Entry point
+├── injection.dart         # Dependency injection container (GetIt setup)
+```
 
-This project is a starting point for a Flutter application.
+This project uses [GetIt](https://pub.dev/packages/get_it) for dependency injection. All dependencies are registered in `injection.dart`.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
