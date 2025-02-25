@@ -5,12 +5,12 @@ A simple Flutter project that fetches random dog images from an [API](https://do
 ## Project Structure
 ```
 📂 lib
-├── 📂 core                 # Common utilities, failure handling
+├── 📂 core                 # Common utilities
 ├── 📂 domain               # Business logic (Entities, UseCases, Repository Interface)
-├── 📂 data                 # Data layer (Models, API calls, Repository Implementation)
+├── 📂 data                 # Data layer (Models, Data sources, Repository Implementation)
 ├── 📂 presentation         # UI & State Management (Bloc, Widgets)
 ├── main.dart              # Entry point
-├── injection.dart         # Dependency injection container (GetIt setup)
+├── injection_container.dart         # Dependency injection (GetIt setup)
 ```
 
 This project uses [GetIt](https://pub.dev/packages/get_it) for dependency injection. All dependencies are registered in `injection.dart`.
