@@ -1,4 +1,4 @@
-# Random Dog Images 🐶📸 (DDD Architecture)
+# Random Dog Image 🐶📸 (DDD Architecture)
 
 A simple Flutter project that fetches random dog images from an [API](https://dog.ceo/api/breeds/image/random) while following the Domain-Driven Design (DDD) architecture.
 
